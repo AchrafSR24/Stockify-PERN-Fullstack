@@ -1,0 +1,54 @@
+.editStock{
+    display: grid;
+    gap: 20px;
+    height : 100svh;
+    padding: 20px;
+}
+.inputs{
+    background-color: var(--soft-color) !important;
+    padding: 13px !important;
+    border-radius: 4px ;
+    height: auto !important;
+}
+.stock-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.optionBtnHolder{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 45px;
+}
+.optionBtnHolder button{
+    padding: 10px 25px;
+    background-color: #6a67ce;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    color: var(--text-color);
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.optionBtnHolder button:active{
+    transform: scale(.99);
+}
+.optionBtnHolder button:hover{
+    filter: brightness(1.1);
+}
+.optBtn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.optBtn button:disabled{
+    opacity: 0.5;
+    cursor: no-drop;
+}
+.CloseBtn{
+    background-color: #ff4469 !important;
+}
